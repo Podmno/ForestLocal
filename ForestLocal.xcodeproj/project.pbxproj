@@ -11,6 +11,10 @@
 		5D50D9832BA9D4B900F1AB0F /* ForestLocal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D50D9812BA9D4B900F1AB0F /* ForestLocal.xcdatamodeld */; };
 		5D50D9852BA9D4BF00F1AB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D50D9842BA9D4BF00F1AB0F /* Assets.xcassets */; };
 		5D50D9882BA9D4BF00F1AB0F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D50D9862BA9D4BF00F1AB0F /* MainMenu.xib */; };
+		5D50D9912BAAF6BE00F1AB0F /* LGSecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50D9902BAAF6BE00F1AB0F /* LGSecureStorage.swift */; };
+		5D50D9952BAB051500F1AB0F /* WCForestViewer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50D9932BAB051500F1AB0F /* WCForestViewer2.swift */; };
+		5D50D9962BAB051500F1AB0F /* WCForestViewer2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D50D9942BAB051500F1AB0F /* WCForestViewer2.xib */; };
+		5D50D9982BAB190A00F1AB0F /* VCForestMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50D9972BAB190A00F1AB0F /* VCForestMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		5D50D9842BA9D4BF00F1AB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D50D9872BA9D4BF00F1AB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5D50D9892BA9D4BF00F1AB0F /* ForestLocal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForestLocal.entitlements; sourceTree = "<group>"; };
+		5D50D9902BAAF6BE00F1AB0F /* LGSecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGSecureStorage.swift; sourceTree = "<group>"; };
+		5D50D9932BAB051500F1AB0F /* WCForestViewer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCForestViewer2.swift; sourceTree = "<group>"; };
+		5D50D9942BAB051500F1AB0F /* WCForestViewer2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCForestViewer2.xib; sourceTree = "<group>"; };
+		5D50D9972BAB190A00F1AB0F /* VCForestMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCForestMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 		5D50D97E2BA9D4B900F1AB0F /* ForestLocal */ = {
 			isa = PBXGroup;
 			children = (
+				5D50D9922BAB04F900F1AB0F /* Viewer2 */,
+				5D50D98F2BAAF6A900F1AB0F /* Storage2 */,
 				5D50D97F2BA9D4B900F1AB0F /* AppDelegate.swift */,
 				5D50D9842BA9D4BF00F1AB0F /* Assets.xcassets */,
 				5D50D9862BA9D4BF00F1AB0F /* MainMenu.xib */,
@@ -59,6 +69,24 @@
 				5D50D9812BA9D4B900F1AB0F /* ForestLocal.xcdatamodeld */,
 			);
 			path = ForestLocal;
+			sourceTree = "<group>";
+		};
+		5D50D98F2BAAF6A900F1AB0F /* Storage2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D50D9902BAAF6BE00F1AB0F /* LGSecureStorage.swift */,
+			);
+			path = Storage2;
+			sourceTree = "<group>";
+		};
+		5D50D9922BAB04F900F1AB0F /* Viewer2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D50D9932BAB051500F1AB0F /* WCForestViewer2.swift */,
+				5D50D9942BAB051500F1AB0F /* WCForestViewer2.xib */,
+				5D50D9972BAB190A00F1AB0F /* VCForestMain.swift */,
+			);
+			path = Viewer2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D50D9852BA9D4BF00F1AB0F /* Assets.xcassets in Resources */,
+				5D50D9962BAB051500F1AB0F /* WCForestViewer2.xib in Resources */,
 				5D50D9882BA9D4BF00F1AB0F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D50D9832BA9D4B900F1AB0F /* ForestLocal.xcdatamodeld in Sources */,
+				5D50D9982BAB190A00F1AB0F /* VCForestMain.swift in Sources */,
+				5D50D9952BAB051500F1AB0F /* WCForestViewer2.swift in Sources */,
 				5D50D9802BA9D4B900F1AB0F /* AppDelegate.swift in Sources */,
+				5D50D9912BAAF6BE00F1AB0F /* LGSecureStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
