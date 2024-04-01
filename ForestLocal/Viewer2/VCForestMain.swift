@@ -7,6 +7,23 @@
 
 import Cocoa
 
+struct VCForestMainRecord {
+    var timeStart: Date
+    var timeEnd: Date
+    
+    var visable: Bool
+    var treeType: Int
+    var isDead: Bool
+    var tag: Int
+    var commet: String
+    
+    var rawJSON: String
+}
+
+struct VCForestMainTree {
+    
+}
+
 class VCForestMain: NSViewController {
 
     override func viewDidLoad() {

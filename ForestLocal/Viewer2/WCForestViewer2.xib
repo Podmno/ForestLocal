@@ -23,26 +23,26 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <visualEffectView fixedFrame="YES" blendingMode="behindWindow" material="sidebar" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="dXp-6H-8c8">
-                        <rect key="frame" x="0.0" y="0.0" width="605" height="462"/>
+                        <rect key="frame" x="0.0" y="0.0" width="605" height="510"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mQX-Pr-7AA">
-                                <rect key="frame" x="127" y="24" width="350" height="338"/>
+                                <rect key="frame" x="127" y="72" width="350" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1G-2T-wR9">
-                                <rect key="frame" x="154" y="402" width="299" height="36"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1G-2T-wR9">
+                                <rect key="frame" x="18" y="464" width="299" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="2020/1/1 周一" id="h2X-ns-qT8">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="2020/1/1 周一" id="h2X-ns-qT8">
                                     <font key="font" metaFont="systemLight" size="22"/>
                                     <color key="textColor" name="AccentColor"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEY-TM-aYx">
-                                <rect key="frame" x="127" y="386" width="352" height="16"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEY-TM-aYx">
+                                <rect key="frame" x="18" y="440" width="352" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="0 棵树，总专注时间 0 分钟" id="gDt-Ix-EgW">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="0 棵树，总专注时间 0 分钟" id="gDt-Ix-EgW">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -50,15 +50,6 @@
                             </textField>
                         </subviews>
                     </visualEffectView>
-                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iCr-pi-9wp">
-                        <rect key="frame" x="0.0" y="461" width="605" height="49"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" drawsBackground="YES" id="yZl-b0-Fop">
-                            <font key="font" usesAppearanceFont="YES"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="AccentColor"/>
-                        </textFieldCell>
-                    </textField>
                 </subviews>
             </view>
             <connections>
